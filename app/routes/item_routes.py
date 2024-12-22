@@ -13,4 +13,3 @@ def get_items():
     return jsonify(items_schema.dump(items))
 
 
-@bp.route('/items', methods=['GET'])
